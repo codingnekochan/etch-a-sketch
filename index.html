@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts added-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- js file -->
+    <script src="./script.js" defer></script>
+    <link rel="icon" href="./icons/barretr_Pencil.svg" size="32x32">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <section class="sketch_name">
+        <h1>Etch-A-Sketch</h1>
+    </section>
+    <section class="sketch_ui">
+        <div class="sketch_ui--pad">
+            <div class="sketch_surface"></div>
+            <div class="sketch_body">
+                <div class="sketch_body--deco"></div>
+                <div class="sketch_body--deco"></div>
+            </div>
+        </div>
+        <div>
+            <div class="sketch_ui--btn">
+                <button class="btn ui_button--grid">Grid Size</button>
+                <button class="btn ui_button--dflt">Default Color</button>
+                <button class="btn ui_button--colr">
+                    <span class="colr-txt">pen color</span>
+                    <label for="color-picker" class="color-picker">
+                        <input id="color-picker" type="color">
+                    </label>
+                </button>
+                <button class="btn ui_button--rnbw">Rainbow</button>
+                <button class="btn ui_button--ersr">Eraser</button>
+                <button class="btn ui_button--clr">Clear</button>
+            </div>
+        </div>
+    </section>
+   
+</body>
+</html>
