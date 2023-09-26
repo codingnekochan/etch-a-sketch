@@ -48,10 +48,14 @@ h1{
     justify-content:flex-start;
     align-items: flex-start;
 }
-.grid_squares{
-  border: 1px solid black;}
-.grid_squares:hover{
-    background-color: aqua;
+.grid_squares.gridlines{
+    border: 1px solid rgb(193, 192, 192);
+}
+.grid_squares.background{
+    background-color: rgb(162, 159, 159);
+}
+.pointerEvent{
+    pointer-events: none;
 }
 .sketch_body{
     display: flex;
